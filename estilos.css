@@ -37,3 +37,12 @@
     transform: translateX(0%) translateY(500%);
 
 }
+
+@media only screen and (max-width:968px){
+    .contenedor{
+        flex-wrap: wrap;
+    }
+    .cuadrado{
+        margin: 15px;
+    }
+}
